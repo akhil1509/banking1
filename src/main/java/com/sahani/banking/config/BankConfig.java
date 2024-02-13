@@ -40,7 +40,7 @@ import java.util.Collections;
                 url = "http://localhost:8080"
         ),
             @Server(
-                    description = "testing",
+                    description = "test",
                     url = "http://localhost:8081"
             )
 
@@ -48,25 +48,6 @@ import java.util.Collections;
 )
 public class BankConfig {
 
-//     ApiInfo apiInfo() {
-//        return new ApiInfo("Blog REST APIs",
-//                "REST APIs for Blog Application",
-//                "1.0",
-//                "Terms of service",
-//                new Contact("Ramesh Fadatare", "www.javaguides.net", "ramesh@gmail.com"),
-//                "License of API",
-//                "API license URL",
-//                Collections.emptyList());
-//    }
-//
-//@Bean
-//    public Docket api() {
-//        return new Docket(DocumentationType.SWAGGER_2)
-//                .apiInfo(apiInfo())
-//                .select()
-//                .apis(RequestHandlerSelectors.any())
-//                .paths(PathSelectors.any())
-//                .build();
-//    }
+
 }
 
